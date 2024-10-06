@@ -1,8 +1,8 @@
 # Spring boot Java Application - Vote REST API
 The solution consist of wo parts - a REST API and a web client application. The API can be used with a *postman* or *swagger* API. This project provides REST endpoints through which a poll can be initialised, a vote cast, the votes saved and the outcome of the poll viewed. An accompanying client, a web client, is provided separately in voting-app project.
 ### Tech stack
-1. API tech stack consists of Spring boot, Java, Maven, Junit5, Swagger
-2. The client is a React app
+1. API tech stack consists of Spring boot, Java, Maven, Junit5, Swagger. Verify Java 21 is installed. From terminal or command prompt, run java --version
+2. The client is a React app. Verify node version is v20.17.0 or higher and npm version is 10.8.2 or higher
 ### Instructions
 To run the service:
 1. Make a directory ```D:/data/votedb```. This is the destination location for h2 database. If you use a different location e.g. linux system, change the value of the property ```spring.datasource.url``` in the file ```src/main/resources/application.properties```
