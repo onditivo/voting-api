@@ -37,4 +37,6 @@ To run the web client,
 2. Change to the project root directory
 3. Run ```npm start```
 
-You should find ![dizplai.png](dizplai.png)
+You should find
+
+![dizplai.png](dizplai.png)
