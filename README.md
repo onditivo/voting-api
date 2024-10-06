@@ -31,7 +31,7 @@ Once the poll is initialised via the step 4. above, you can use postman to
 4. To view the poll details created in step 4 above, use ```http://localhost:8080/api/v1/poll/{pollId}```. Replace the ```pollId``` with the value returned from the step 4 above.
 5. To view the options for the poll in step 4 above, use ```http://localhost:8080/api/v1/poll/{pollId}/options```. Replace the ```pollId``` with the value returned from the step 4 above.
 
-### Running the postman client
+### Running the web client
 To run the web client,
 1. Checkout the voting-app git project
 2. Change to the project root directory
