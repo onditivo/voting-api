@@ -36,7 +36,13 @@ To run the web client,
 1. Checkout the voting-app git project
 2. Change to the project root directory
 3. Run ```npm start```
+4. Visit ```localhost:3000```
 
 You should find
 
 ![dizplai.png](dizplai.png)
+
+5. When you submit a vote, the result should show as below
+
+![dizplai-result.png](dizplai-result.png)
+
